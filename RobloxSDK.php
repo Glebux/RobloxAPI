@@ -1,4 +1,10 @@
 <?php
+/**
+ * RobloxSDK
+ * @author Glebux
+ * @license MIT License
+ * @copyright Glebux©2022
+ */
     function headersToArray( $str ): array {
         $headers = array();
         $headersTmpArray = explode( "\r\n" , $str );
