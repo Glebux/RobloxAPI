@@ -59,7 +59,7 @@
             array_push($temphd, "X-CSRF-Token: ".$token);
         }
         if (isset($headers)){
-            foreach ($headers as $k => $v){
+            foreach ($headers as $v){
                 array_push($temphd, $v);
             }
         }
@@ -85,7 +85,7 @@
         public string $userid;
         public string $username;
         public string $displayname;
-        protected string $accesspassword = "";
+        private string $accesspassword = "";
         public function __construct(string $cookie, $accesspassword = "")
         {
             $this->cookie = $cookie;
