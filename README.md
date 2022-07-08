@@ -1,2 +1,2 @@
-# RobloxSDK WIP
-SDK for Roblox written in php
+# RobloxAPI WIP
+API for Roblox written in php
